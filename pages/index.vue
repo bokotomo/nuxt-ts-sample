@@ -1,12 +1,13 @@
 <template>
-  <Home />
+  <TemplateHome />
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
+import TemplateHome from '@/components/templates/Home.vue';
 
-const a: number = 1;
 export default Vue.extend({
   name: 'IndexPage',
+  components: { TemplateHome },
 });
 </script>

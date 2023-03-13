@@ -1,13 +1,12 @@
 <template>
-  <h2>test</h2>
+  <button>ButtonBasic</button>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
-import { useHooks } from './hooks';
 
 export default Vue.extend({
-  name: 'TemplateHome',
+  name: 'ButtonBasic',
 });
 </script>
 
